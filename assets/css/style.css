@@ -501,6 +501,7 @@ body.nav-open .menu{clip-path:inset(0 0 0 0)}
   .hero__bar li:nth-child(2n){padding-left:clamp(10px,4vw,20px)}
   .hero__bar li:nth-child(2n+1){padding-left:0}
   .event{grid-template-columns:minmax(0,1fr)}
+  .event__tag{grid-column:auto}
   .event__date{flex-direction:row;align-items:baseline;gap:10px}
   .row{grid-template-columns:32px minmax(0,1fr)}
   .row p{grid-column:2}
